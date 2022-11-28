@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Decoracion de cabezera */
+#cabezera{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.18;
+    background-image: url("/img/background.png");
+    background: -moz-linear-gradient(0deg, rgb(63,41,57,1) 20%, rgb(42,61,68,1) 40%);
+
+}
+
+
+#cuerpo{
+    display: flex;
+    flex: 1;
+    background-color: #202024;
+}
+.menu{
+    display: flex;
+    flex: 0.12;
+}
+
+.main{
+    display: flex;
+    flex: 0.55;
+}
+
+.buscador{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    flex: 0.34;
+    background-color: #3c3c3e;
+}
+
+
+/* SECCION DE ASIDE */
+.part1 img{
+    position: absolute;
+    width: 10rem;
+    top: 1.5rem;
+    left: 2rem;
+}
+
+.part1{
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    margin-left: 13.5rem;
+}
+.part1 .busca{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c3c3e;
+    border: 0.5px solid #aeaeb2;
+    width: 35rem;
+    height: 3rem;
+    border-radius: 20px;
+}
+.iconos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 5rem;
+    height: 2rem;
+}
+.iconos i{
+    font-size: 20px;
+}
+
+.lupa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #4a72f5;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20px;
+}
+.busca{
+    margin-right: 10px;
+}
+.busca p{
+    margin-left: 1rem;
+}
+.busca .raya4{
+    background-color: #313135;
+    width: 4px;
+    height: 2rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu div{
+    display: flex;
+    background-color: #3c3c3e;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-left: 1rem;
+}
+
+
+.menu p{
+    font-size: 18px;
+    margin: 1.2rem 0rem 0rem 1rem;
+}
+.menu li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.all2{
+    color: #696b6c;
+}
+.all3{
+    color: white;
+}
+
+/* CUADROS */
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.main .linea{
+    background-color: #aeaeb2;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    width: 42rem;
+    height: 1px;
+}
+
+.mejor{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.11;
+}
+.mejor > .facts{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.facts div{
+    background-color: #aeaeb2;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+.gusta{
+    display: flex;
+    justify-content: space-evenly;
+    width: 4rem;
+    align-items: center;
+}
+.gusta div{
+    background-color: #696b6c;
+    width: 0.2rem;
+    height: 1.2rem;
+    border-radius: 2px;
+}
+.gusta i{
+    color: white;
+}
+.w{
+    display: flex;
+    margin-top: 10px;
+}
+.w2{
+  background-color: white;  
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 5px;
+  margin-right: 5px;
+  position: relative;
+}
+
+
+/* Cuadros */
+.caja_cuadros{
+    display: flex;
+    margin-top: 1rem;
+    height: 20rem;
+}
+
+.cuadros{
+    background-color: #aeaeb250;
+    width: 19rem;
+    height: 19rem;
+    margin-right: 1rem;
+    padding-left: 13px;
+    border-radius: 20px;
+    color: white;
+}
+.link{
+    color: #313135;
+    font-size: 15px;
+}
+
+/* Cuadro uno */
+.cuadros img{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    width: 8.5rem;
+}
+.cuadros .lo{
+    margin-top: 1rem;
+    color: white;
+}
+.texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18rem;
+    height: 2.7rem;
+    font-size: 17px;
+    color: white;
+}
+.texto i{
+    font-size: 15px;
+    color: #696b6c;
+}
+.raya{
+    background-color: #696b6c;
+    width: 18rem;
+    height: 1px;
+}
+
+/* SECCION del bucador */
+.co_X{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.X{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313135;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 40px;
+}
+.X i{
+    font-size: 35px;
+}
+.texto1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 26.5rem;
+    height: 4.7rem;
+    font-size: 24px;
+    color: white;
+}
+.texto1 i{
+    font-size: 18px;
+    color: #696b6c;
+}
+.buscador .la{
+    margin-top: 3rem;
+    color: white;
+}
+
+.raya1{
+    background-color: #696b6c;
+    width: 26.5rem;
+    height: 1px;
+}
+
+.linea2{
+    background-color: #696b6c;
+    width: 42rem;
+    height: 1px;
+    margin-bottom: 1rem;
+}
+
+/* Gradientes */
+#make{
+    background-image: url("/img/background.png");
+    background: -moz-linear-gradient(90deg, rgb(63,41,57,1) 0%, rgb(42,61,68,1) 59%);
+    width: 38rem;
+    height: 7rem;
+    border-radius: 10px;
+    padding: 0rem 2rem;
+}
+.titulo_make{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#make .lar{
+    color: #696b6c;
+}
+.titulo_make i{
+    font-size: 29px;
+    color: #696b6c;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    align-items: center;
+    width: 16rem;
+    height: 2.5rem;
+    background-color: #4a72f5;
+    border-radius: 20px;
+    color: white;
+}
+#make img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 5px;
+}
+
+#open{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#open .raya3{
+    background-color: #3c3c3e;
+    width: 4rem;
+    height: 1px;
+}
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c3c3e;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 20px;
+    color: #668aff;
+    border: 1px solid #aeaeb2;
+}
